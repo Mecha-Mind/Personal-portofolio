@@ -13,19 +13,19 @@ const data = [
     avatar: AVTR1,
     name: 'Abdallah',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius quasi dignissimos non ab architecto ipsum cupiditate minima est unde.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. unde.',
   },
   {
     avatar: AVTR1,
-    name: 'Aboda',
+    name: 'Momen',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius quasi dignissimos non ab architecto ipsum cupiditate minima est unde.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius quasi dignissimos non ab  minima est unde.',
   },
   {
     avatar: AVTR1,
-    name: 'Slim',
+    name: 'Magdy',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius quasi dignissimos non ab architecto ipsum cupiditate minima est unde.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius quasi dignissimos non ab architecto ipsum cupiditate minima est undetetur adipisicing elit. Odio eius quasi dignissimos non ab architecto ipsum cupiditate minima est unde.',
   },
 ];
 
