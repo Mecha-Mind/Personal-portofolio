@@ -7,6 +7,7 @@ import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer';
 import './App.css';
+import ElevatorPatch from './components/elevator-patch/ElevatorPatch';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Experience/>
       <Portfolio/>
       <Testimonials/>
+      <ElevatorPatch/>
       <Contact/>
       <Footer/>
     </div>

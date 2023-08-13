@@ -1,0 +1,12 @@
+section.elevator__container{
+  text-align: center;
+  min-height: 300px;
+}
+
+.elevator__container h1 {
+  margin: 80px
+}
+
+.elevator__container p {
+  font-size: 22px;
+}
