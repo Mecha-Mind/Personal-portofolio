@@ -9,6 +9,9 @@
   border-radius: 2rem;
   transition: var(--transition);
   padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .portfolio__item:hover {

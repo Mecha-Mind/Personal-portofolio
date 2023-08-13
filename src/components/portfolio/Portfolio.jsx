@@ -1,12 +1,17 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/me.jpg'
-import HEgy from '../../assets/HealthyEgy.png'
+import HEGY from '../../assets/HealthyEgy.png'
+import ATON from '../../assets/Aton.png'
+import TERMIN from '../../assets/Terminaly.png'
+import KASPER from '../../assets/kasper.png'
+import CRUDS from '../../assets/CRUDS.png'
+
 
 const data = [
   {
     id: 1,
-    image: HEgy,
+    image: HEGY,
     title: 'Month-2 project slide deck',
     gitNm: "Youtube Video",
     github: 'https://www.youtube.com/watch?v=5-wy73dHWYE',
@@ -14,43 +19,35 @@ const data = [
   },
   {
     id: 2,
-    image: IMG1,
-    title: 'Portfolio Dashboard',
+    image: ATON,
+    title: 'Aton Landing-Page',
     gitNm: "Github",
-    github: 'https://github.com',
-    demo: '#'
+    github: 'https://github.com/Mecha-Mind/AtomWeb',
+    demo: 'https://mecha-mind.github.io/AtomWeb/'
   },
   {
     id: 3,
-    image: IMG1,
-    title: 'Portfolio Dashboard',
+    image: TERMIN,
+    title: 'Terminaly Website',
     gitNm: "Github",
-    github: 'https://github.com',
-    demo: '#'
+    github: 'https://github.com/Mecha-Mind/Termenaly',
+    demo: 'https://mecha-mind.github.io/Termenaly/'
   },
   {
     id: 4,
-    image: IMG1,
-    title: 'Portfolio Dashboard',
+    image: KASPER,
+    title: 'Kasper Site',
     gitNm: "Github",
-    github: 'https://github.com',
-    demo: '#'
+    github: 'https://github.com/Mecha-Mind/Kasper',
+    demo: 'https://mecha-mind.github.io/Kasper/'
   },
   {
     id: 5,
-    image: IMG1,
-    title: 'Portfolio Dashboard',
+    image: CRUDS,
+    title: 'Cruds-JavaScript',
     gitNm: "Github",
-    github: 'https://github.com',
-    demo: '#'
-  },
-  {
-    id: 6,
-    image: IMG1,
-    title: 'Portfolio Dashboard',
-    gitNm: "Github",
-    github: 'https://github.com',
-    demo: '#'
+    github: 'https://github.com/Mecha-Mind/Cruds-JavaScript',
+    demo: 'https://mecha-mind.github.io/Cruds-JavaScript/'
   },
 ]
 const Portfolio = () => {

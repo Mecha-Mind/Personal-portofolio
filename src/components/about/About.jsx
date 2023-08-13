@@ -33,7 +33,7 @@ const About = () => {
               <small>8+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repellendus excepturi alias aperiam optio sapiente numquam vel nesciunt totam mollitia necessitatibus, perspiciatis laudantium pariatur debitis. Deserunt repudiandae molestiae a maxime.</p>
+          <p>I am a frontend developer with a strong foundation in HTML and CSS, and intermediate skills in JavaScript. I am a fast learner and a dedicated researcher, always striving to stay updated with the latest trends and technologies in my field. I am seeking my first job as a front-end developer to gain valuable experience and apply my skills to create beautiful and functional interfaces for users. I am committed to doing my best and making a positive impact..</p>
           <a href="#contact" className="btn btn__primary">Let's Talk</a>
         </div>
       </div>
