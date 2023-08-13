@@ -1,0 +1,31 @@
+/* PAGINATION CSS */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.pagination li {
+  margin: 0 0.5rem;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: var(--color-primary);
+  color: #333;
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+.pagination a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.pagination .page-item.active a {
+  background-color: var(--color-primary-variant);
+}
