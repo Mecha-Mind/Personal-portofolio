@@ -4,7 +4,7 @@ import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 
 import { useRef } from 'react';
-import emailjs, { send } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const form = useRef();
