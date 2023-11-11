@@ -38,7 +38,7 @@ body {
   background-image: url(./assets/bg-texture.png);
 }
 
-/* ************ Global Rulez ***************** */
+/* ************ Global Rules ***************** */
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;

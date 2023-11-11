@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/me.jpg'
+// import IMG1 from '../../assets/me.jpg'
 import HEGY from '../../assets/HealthyEgy.png'
 import ATON from '../../assets/Aton.png'
 import TERMIN from '../../assets/Terminaly.png'
