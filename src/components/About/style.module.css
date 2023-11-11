@@ -1,4 +1,5 @@
 .about__container {
+  composes: container from '../../index.css';
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
@@ -14,6 +15,7 @@
 }
 
 .about__me img {
+  height: 100%;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);

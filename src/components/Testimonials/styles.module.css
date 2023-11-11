@@ -1,4 +1,6 @@
 .testimonials__container {
+  composes: container from '../../index.css';
+
   width: 40%;
 }
 

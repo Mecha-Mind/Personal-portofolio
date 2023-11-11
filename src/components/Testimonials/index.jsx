@@ -1,7 +1,7 @@
 import React from 'react';
-import './testimonials.css';
-import AVTR1 from '../../assets/me.jpg';
-import Pagination from '../pagination/Pagination';
+import styles from'./styles.module.css';
+import AVTR1 from '../../assets/me.png';
+import Pagination from '../Pagination';
 const data = [
   {
     avatar: AVTR1,
@@ -41,16 +41,16 @@ const Testimonials = () => {
     <section id="testimonials">
       <h5>Review from Clients</h5>
       <h2>Testimonials</h2>
-      <div className="container testimonials__container">
+      <div className={styles["testimonials__container"]}>
         {
           currentReviews.map(({avatar, name, review}, i) => {
             return (
-            <article key={i} className="testimonial">
-              <div className="client__avatar">
+            <article key={i} className={styles["testimonial"]}>
+              <div className={styles["client__avatar"]}>
                 <img src={avatar} alt={name} />
               </div>
-              <h5 className="client__name">{name}</h5>
-              <small className="client__review">{review}</small>
+              <h5 className={styles["client__name"]}>{name}</h5>
+              <small className={styles["client__review"]}>{review}</small>
             </article>
           )})
         }

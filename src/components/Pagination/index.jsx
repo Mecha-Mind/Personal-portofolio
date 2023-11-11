@@ -1,4 +1,5 @@
-import './pagination.css'
+import styles from'./styles.module.css';
+
 
 const Pagination = ({ reviewsPerPage, totalReviews, currentPage, setCurrentPage }) => {
   const pageNumbers = [];
@@ -9,10 +10,10 @@ const Pagination = ({ reviewsPerPage, totalReviews, currentPage, setCurrentPage 
 
   return (
     <nav>
-      <ul className='pagination'>
+      <ul className={styles.pagination}>
         {pageNumbers.map(number => (
-          <li key={number} className={`page-item ${currentPage === number - 1 ? 'active' : ''}`}>
-            <a onClick={(e) => { e.preventDefault(); setCurrentPage(number - 1) }} href="!#" className='page-link'>
+          <li key={number} className={`${styles["page-item"]} ${currentPage === number - 1 ? styles.active : ''}`}>
+            <a onClick={(e) => { e.preventDefault(); setCurrentPage(number - 1) }} href="!#" className={styles['page-link']}>
             </a>
           </li>
         ))}

@@ -1,9 +1,9 @@
-import React from 'react'
-import './footer.css'
+import styles from './styles.module.css'
+
 const Footer = () => {
   return (
     <footer>
-      <div className="footer__copyright">
+      <div className={styles["footer__copyright"]}>
         <small>&copy; Hani Abdallah. All rights reserved.</small>
       </div>
     </footer>

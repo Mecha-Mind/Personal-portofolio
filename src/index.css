@@ -79,25 +79,7 @@ a:hover {
   color: var(--color-white);
 }
 
-.btn {
-  width: fit-content;
-  display: inline-block;
-  padding: 0.75rem 1.2rem;
-  transition: var(--transition);
-  border: 1px solid var(--color-primary);
-  border-radius: 0.4rem;
-  cursor: pointer;
-  color: var(--color-primary);
-}
-.btn:hover {
-  background-color: var(--color-white);
-  border-color: transparent;
-  color: var(--color-bg);
-}
-.btn-primary {
-  background-color: var(--color-primary);
-  color: var(--color-bg)
-}
+
 
 img {
   width: 100%;

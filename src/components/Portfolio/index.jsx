@@ -1,6 +1,4 @@
-import React from 'react'
-import './portfolio.css'
-// import IMG1 from '../../assets/me.jpg'
+import styles from'./style.module.css';
 import HEGY from '../../assets/HealthyEgy.png'
 import ATON from '../../assets/Aton.png'
 import TERMIN from '../../assets/Terminaly.png'
@@ -55,18 +53,18 @@ const Portfolio = () => {
     <section id='portfolio'>
       <h5>Get To Know</h5>
       <h2>My Works</h2>
-      <div className="container portfolio__container">
+      <div className={styles["portfolio__container"]}>
         {
           data.map(({id, title, image, github, demo, gitNm})=>{
             return (
-              <article key={id} className="portfolio__item">
-                <div className="portfolio__item-image">
+              <article key={id} className={styles["portfolio__item"]}>
+                <div className={styles["portfolio__item-image"]}>
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
-                <div className="portfolio__cta">
-                  <a href={github} className='btn' target="_blank" rel="noopener noreferrer">{gitNm}</a>
-                  <a href={demo} className='btn btn-primary' target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <div className={styles["portfolio__cta"]}>
+                  <a href={github} className={styles.btn} target="_blank" rel="noopener noreferrer">{gitNm}</a>
+                  <a href={demo} className={`${styles.btn} ${styles['btn-primary']}`} target="_blank" rel="noopener noreferrer">Live Demo</a>
                 </div>
               </article>
             )

@@ -1,4 +1,6 @@
 .portfolio__container {
+  composes: container from '../../index.css';
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 2rem;
@@ -32,4 +34,24 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.btn {
+  width: fit-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  transition: var(--transition);
+  border: 1px solid var(--color-primary);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+.btn:hover {
+  background-color: var(--color-white);
+  border-color: transparent;
+  color: var(--color-bg);
+}
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-bg)
 }
