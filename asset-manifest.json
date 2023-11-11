@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Personal-portofolio/static/css/main.5db4f787.css",
-    "main.js": "/Personal-portofolio/static/js/main.1e72a6d1.js",
-    "static/media/me.jpg": "/Personal-portofolio/static/media/me.22bd46b6709df01308a3.jpg",
-    "static/media/cv.pdf": "/Personal-portofolio/static/media/cv.1676dcdc83730930d888.pdf",
+    "main.css": "/Personal-portofolio/static/css/main.808748f4.css",
+    "main.js": "/Personal-portofolio/static/js/main.bfc2fdf1.js",
     "static/media/me.png": "/Personal-portofolio/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/Aton.png": "/Personal-portofolio/static/media/Aton.f258ad628e4a60d76d94.png",
+    "static/media/mine.png": "/Personal-portofolio/static/media/mine.e2c8cf64e29949a76ba6.png",
     "static/media/kasper.png": "/Personal-portofolio/static/media/kasper.009da6c9691b69f448fb.png",
     "static/media/Terminaly.png": "/Personal-portofolio/static/media/Terminaly.50459d09a2c4bfba33ab.png",
+    "static/media/Hani.jpeg": "/Personal-portofolio/static/media/Hani.90298ab2d7462feab556.jpeg",
     "static/media/CRUDS.png": "/Personal-portofolio/static/media/CRUDS.d20ddd2d7b159628fc1a.png",
     "static/media/HealthyEgy.png": "/Personal-portofolio/static/media/HealthyEgy.9c397f428e3b211bb696.png",
     "index.html": "/Personal-portofolio/index.html",
-    "main.5db4f787.css.map": "/Personal-portofolio/static/css/main.5db4f787.css.map",
-    "main.1e72a6d1.js.map": "/Personal-portofolio/static/js/main.1e72a6d1.js.map"
+    "main.808748f4.css.map": "/Personal-portofolio/static/css/main.808748f4.css.map",
+    "main.bfc2fdf1.js.map": "/Personal-portofolio/static/js/main.bfc2fdf1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db4f787.css",
-    "static/js/main.1e72a6d1.js"
+    "static/css/main.808748f4.css",
+    "static/js/main.bfc2fdf1.js"
   ]
 }
